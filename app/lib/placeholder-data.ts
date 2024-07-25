@@ -48,6 +48,8 @@ const customers = [
   },
 ];
 
+
+//Each of them objects represents a table in the database
 const invoices = [
   {
     customer_id: customers[0].id,
