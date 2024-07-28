@@ -1,4 +1,5 @@
 import '@/app/ui/global.css';
+import { inter, lusitana } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -7,8 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}
-      <h1 className="text-blue-500">I'm blue!</h1>
+      <body className={`${inter.className} antialized`}>{children}
+        <p className={`${lusitana.className} antialized`} >Test over new font here!</p>
       </body>
     </html>
   );
